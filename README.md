@@ -13,12 +13,16 @@ The main difficulty in this task will be the small dataset size, think through w
 
 <ins>Functions of the files in the repository:</ins>
 
-requirements.txt
+requirements.txt: describe the required imports for running the script
 
-Dockerfile
+Dockerfile: contains the docker's specification
 
-ipynb
+ipynb: the script where we are making our model
 
 <ins>Related works (papers, GitHub repositories, blog posts, etc):</ins>
+
+    https://github.com/BME-SmartLab-VITMMA19/vision-assignment
+
+    https://www.freecodecamp.org/news/python-requirementstxt-explained/
 
 <ins>How to run it (building and running the container, running your solution within the container):</ins>
