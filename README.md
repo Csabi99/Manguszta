@@ -26,3 +26,7 @@ ipynb: the script where we are making our model
     https://www.freecodecamp.org/news/python-requirementstxt-explained/
 
 <ins>How to run it (building and running the container, running your solution within the container):</ins>
+
+    docker build . -t the_image
+    docker run --rm the_image
+    docker rmi
