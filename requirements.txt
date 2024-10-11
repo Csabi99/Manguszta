@@ -6,4 +6,3 @@ torchvision
 pytorch_lightning
 torchmetrics
 wandb
-datasets
