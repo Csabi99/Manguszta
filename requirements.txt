@@ -1,10 +1,8 @@
 pandas
 PIL
-matplotlib.pyplot
+matplotlib
 torch
-torch.nn.functional
 torchvision
-transforms
 pytorch_lightning
 torchmetrics
 wandb
