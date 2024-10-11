@@ -1,0 +1,11 @@
+pandas
+PIL
+matplotlib.pyplot
+torch
+torch.nn.functional
+torchvision
+transforms
+pytorch_lightning
+torchmetrics
+wandb
+datasets
