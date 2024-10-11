@@ -1,8 +1,9 @@
 pandas
-PIL
+Pillow
 matplotlib
 torch
 torchvision
 pytorch_lightning
 torchmetrics
 wandb
+ipykernel
