@@ -27,6 +27,8 @@ ipynb: the script where we are making our model
 
 <ins>How to run it (building and running the container, running your solution within the container):</ins>
 
-    docker build . -t the_image
-    docker run --rm the_image
-    docker rmi
+    docker build -t manguszta_dl .
+    docker run -p 8888:8888 -v /path/to/repository/images:/app/images manguszta_dl
+
+    
+Open [http://localhost:8888](http://localhost:8888) in your browser
