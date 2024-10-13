@@ -19,6 +19,8 @@ Dockerfile: contains the docker's specification
 
 ipynb: the script where we are making our model
 
+images (folder): contains the dataset (because of github limitations it needs to be downloaded from drive, but in your local the images folder should be in the same place as the other files, and it contains the pictures directly)
+
 <ins>Related works (papers, GitHub repositories, blog posts, etc):</ins>
 
     https://github.com/BME-SmartLab-VITMMA19/vision-assignment
