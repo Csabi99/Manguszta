@@ -17,9 +17,12 @@ requirements.txt: describe the required imports for running the script
 
 Dockerfile: contains the docker's specification
 
-ipynb: the script where we are making our model
-
 images (folder): contains the dataset (because of github limitations it needs to be downloaded from drive, but in your local the images folder should be in the same place as the other files, and it contains the pictures directly)
+
+**skeleton.ipynb**: contains the **milestone_1**
+
+**baseline.ipynb**: contains the **milestone_2**
+
 
 <ins>Related works (papers, GitHub repositories, blog posts, etc):</ins>
 
