@@ -37,4 +37,4 @@ images (folder): contains the dataset (because of github limitations it needs to
 
     
 1. Open [http://localhost:8888](http://localhost:8888) in your browser
-2. Execute the cells one after the other to train the model and evaluate it
+2. Execute the cells in baseline.ipynb one after the other to train the model and evaluate it
