@@ -13,10 +13,10 @@ COPY ./requirements.txt /app/requirements.txt
 # Install any needed packages specified in requirements.txt
 RUN pip install -r requirements.txt
 
-COPY ./labels.csv /app/labels.csv
-COPY ./skeleton.ipynb /app/skeleton.ipynb
-COPY ./baseline.ipynb /app/baseline.ipynb
-COPY ./completed.ipynb /app/completed.ipynb
+COPY ./labels.csv ./labels.csv
+COPY ./skeleton.ipynb ./skeleton.ipynb
+COPY ./baseline.ipynb ./baseline.ipynb
+COPY ./completed.ipynb ./completed.ipynb
 
 # Expose the Jupyter Notebook port
 EXPOSE 8888
