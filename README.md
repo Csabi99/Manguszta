@@ -32,7 +32,9 @@ images (folder): contains the dataset (because of github limitations it needs to
 
     https://www.freecodecamp.org/news/python-requirementstxt-explained/
 
-<ins>How to run milestone 2 (building and running the container, running your solution within the container):</ins>
+-------------------------------------------------------------------------
+
+<ins>How to run **milestone 2** (building and running the container, running your solution within the container):</ins>
 
     docker build -t manguszta_dl .
     docker run --gpus all -p 8888:8888 -v /path/to/repository/images:/app/images manguszta_dl
