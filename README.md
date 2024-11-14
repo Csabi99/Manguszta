@@ -23,6 +23,8 @@ images (folder): contains the dataset (because of github limitations it needs to
 
 **baseline.ipynb**: contains the **milestone_2**
 
+**completed.ipynb**: contains the **Final_submission**
+
 
 <ins>Related works (papers, GitHub repositories, blog posts, etc):</ins>
 
