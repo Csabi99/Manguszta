@@ -23,6 +23,8 @@ images (folder): contains the dataset (because of github limitations it needs to
 
 **baseline.ipynb**: contains the **milestone_2**
 
+**completed.ipynb**: contains the **Final_submission**
+
 
 <ins>Related works (papers, GitHub repositories, blog posts, etc):</ins>
 
@@ -30,11 +32,13 @@ images (folder): contains the dataset (because of github limitations it needs to
 
     https://www.freecodecamp.org/news/python-requirementstxt-explained/
 
-<ins>How to run milestone 2 (building and running the container, running your solution within the container):</ins>
+-------------------------------------------------------------------------
+
+<ins>How to run **milestone 2** (building and running the container, running your solution within the container):</ins>
 
     docker build -t manguszta_dl .
     docker run --gpus all -p 8888:8888 -v /path/to/repository/images:/app/images manguszta_dl
 
     
 1. Open [http://localhost:8888](http://localhost:8888) in your browser
-2. Execute the cells one after the other to train the model and evaluate it
+2. Execute the cells in baseline.ipynb one after the other to train the model and evaluate it
